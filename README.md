@@ -32,9 +32,7 @@ plugins:
 Then configure the rules you want to use under the rules section.
 
 ```yaml
----
-plugins:
-  - test-filenames
+# ...
 
 rules:
   - test-filenames/suffix: error
