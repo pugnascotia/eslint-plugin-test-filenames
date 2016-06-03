@@ -20,25 +20,24 @@ $ npm install eslint-plugin-test-filenames --save-dev
 
 ## Usage
 
-Add `test-filenames` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `test-filenames` to the plugins section of your [ESLint configuration file](http://eslint.org/docs/user-guide/configuring#configuration-file-formats). You can omit the `eslint-plugin-` prefix:
 
-```json
-{
-    "plugins": [
-        "test-filenames"
-    ]
-}
+```yaml
+---
+plugins:
+  - test-filenames
 ```
 
 
 Then configure the rules you want to use under the rules section.
 
-```json
-{
-    "rules": {
-        "test-filenames/rule-name": 2
-    }
-}
+```yaml
+---
+plugins:
+  - test-filenames
+
+rules:
+  - test-filenames/suffix: error
 ```
 
 ## Supported Rules
