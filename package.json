@@ -30,5 +30,17 @@
   "engines": {
     "node": ">=0.10.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spalger/eslint-plugin-test-filenames.git"
+  },
+  "bugs": {
+    "url": "https://github.com/spalger/eslint-plugin-test-filenames/issues"
+  },
+  "homepage": "https://github.com/spalger/eslint-plugin-test-filenames#readme"
 }
